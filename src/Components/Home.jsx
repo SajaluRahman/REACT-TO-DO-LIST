@@ -105,8 +105,8 @@ function Home() {
                   </div>
                   <button
                     onClick={() => {
-                      setDeletedItems([...1, obj]); // Add to deleted items
-                      // setToDos(toDos.filter((todo) => todo.id !== obj.id)); // Remove from current tasks
+                      setDeletedItems([...deletedItems, obj]); // Add to deleted items
+                      setToDos(toDos.filter((todo) => todo.id !== obj.id)); // Remove from current tasks
                     }}
                     className="text-red-500 hover:text-red-700"
                   >
