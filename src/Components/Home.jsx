@@ -47,8 +47,8 @@ function Home() {
 
       {/* Main Content */}
       <main className="flex-grow  pt-20">
-        <div className="container mx-auto p-32">
-          <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-lg p-6">
+        <div className="container mx-auto p-4">
+          <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-lg p-6 ">
             {/* Heading */}
             <div className="text-center mb-6">
               <h2 className="text-3xl font-bold text-gray-800">Stay Organized</h2>
