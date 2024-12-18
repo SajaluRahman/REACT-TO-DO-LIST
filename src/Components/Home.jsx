@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlus, faMinus, faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import Nav from "./nav";
 
 function Home() {
   const [toDos, setToDos] = useState([]); // State for active tasks
@@ -11,6 +12,7 @@ function Home() {
 
   return (
     <div className="min-h-screen flex flex-col bg-teal-600 text-white">
+      <Nav/>
       {/* Header */}
       <header className="bg-teal-800 fixed w-full z-10 shadow-md">
         <div className="container mx-auto p-4 flex justify-between items-center">
